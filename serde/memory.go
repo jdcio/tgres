@@ -39,6 +39,26 @@ func NewMemSerDe() *memSerDe {
 
 func (m *memSerDe) Fetcher() Fetcher { return m }
 
+func (m *memSerDe) Flusher() Flusher             { return m }
+func (m *memSerDe) EventListener() EventListener { return m }
+
+//func (m *memSerDe) DbAddresser() DbAddresser     { return m }
+
+func (m *memSerDe) RegisterDeleteListener(handler func(Ident)) error {
+	return nil
+}
+
+func (m *memSerDe) FlushDSStates(seg int64, lastupdate, value, duration map[int64]interface{}) (sqlOps int, err error) {
+	return 0, nil
+}
+func (m *memSerDe) FlushDataPoints(bundle_id, seg, i int64, dps, vers map[int64]interface{}) (sqlOps int, err error) {
+	return 0, nil
+}
+
+func (m *memSerDe) FlushRRAStates(bundle_id, seg int64, latests, value, duration map[int64]interface{}) (sqlOps int, err error) {
+	return 0, nil
+}
+
 type srRow struct {
 	ident Ident
 	id    int64
