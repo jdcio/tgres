@@ -29,11 +29,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tgres/tgres/blaster"
-	"github.com/tgres/tgres/cluster"
-	"github.com/tgres/tgres/dsl"
-	"github.com/tgres/tgres/receiver"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/blaster"
+	"github.com/jdcio/tgres/cluster"
+	"github.com/jdcio/tgres/dsl"
+	"github.com/jdcio/tgres/receiver"
+	"github.com/jdcio/tgres/serde"
 )
 
 var (

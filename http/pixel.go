@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/misc"
-	"github.com/tgres/tgres/receiver"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/misc"
+	"github.com/jdcio/tgres/receiver"
+	"github.com/jdcio/tgres/serde"
 )
 
 func sendPixel(w http.ResponseWriter) {

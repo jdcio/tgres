@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/cluster"
+	"github.com/jdcio/tgres/cluster"
 )
 
 var directorIncomingDPMessages = func(rcv chan *cluster.Msg, dpCh chan<- interface{}) {

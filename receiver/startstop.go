@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
+	"github.com/jdcio/tgres/aggregator"
 )
 
 type wrkCtl struct {

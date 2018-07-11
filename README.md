@@ -10,7 +10,7 @@ and Statsd replacement all-in-one, or you can use the Tgres packages
 to incorporate time series collection and reporting functionality into
 your application.
 
-See [GoDoc](https://godoc.org/github.com/tgres/tgres) for package
+See [GoDoc](https://godoc.org/github.com/jdcio/tgres) for package
 details.
 
 Whether you use standalone Tgres or as a package, the time series data
@@ -65,7 +65,7 @@ You need a newer Go (1.7+) and PostgreSQL 9.5 or later. To get the
 daemon compiled all you need is:
 
 ```
-$ go get github.com/tgres/tgres
+$ go get github.com/jdcio/tgres
 ```
 
 Now you should have a tgres binary in `$GOPATH/bin`.
@@ -75,7 +75,7 @@ will use a slightly more elaborate command and the resulting tgres
 binary will be able to report its build time and git revision, but
 otherwise it's the same.
 
-Look in `$GOPATH/src/github.com/tgres/tgres/etc` for a sample config
+Look in `$GOPATH/src/github.com/jdcio/tgres/etc` for a sample config
 file.  Make a copy of this file and edit it, at the very least check
 the `db-connect-string` setting. Also check `log-file` directory, it
 must be writable.

@@ -20,9 +20,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 type pacedMetricType int

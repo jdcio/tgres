@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/serde"
 )
 
 func Test_dsfinder_FindMatchingDSSpec(t *testing.T) {

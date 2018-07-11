@@ -12,7 +12,7 @@ Q. Are all Graphite functions supported?
 
 A. Not all of them, most of them. The ones that are very new, or hard
    to implement or seem obscure were omitted. The specific list is in
-   [dsl/funcs.go](https://github.com/tgres/tgres/blob/master/dsl/funcs.go#L220).
+   [dsl/funcs.go](https://github.com/jdcio/tgres/blob/master/dsl/funcs.go#L220).
 
    Some functions may work sligtly differently (e.g. the Holt-Winters
    ones use a different implementation), there may be slight
@@ -36,7 +36,7 @@ A. Unbelievably performant. See
 
 Q. Is there a Grafana plug-in?
 
-A. Yes: https://github.com/tgres/grafana-plugin
+A. Yes: https://github.com/jdcio/grafana-plugin
 
    You can also just specify Tgres as a Graphite data source and
    expect some functions not to work, sometimes this is easier than

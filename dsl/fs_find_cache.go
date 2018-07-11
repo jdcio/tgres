@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/serde"
 )
 
 // fsFindCache provides a way of searching dot-separated ident

@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
-	"github.com/tgres/tgres/series"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
+	"github.com/jdcio/tgres/series"
 )
 
 // A NamedDSFetcher is a serde.Fetcher which also implements a method

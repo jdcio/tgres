@@ -15,7 +15,7 @@
 
 package dsl
 
-import "github.com/tgres/tgres/series"
+import "github.com/jdcio/tgres/series"
 
 // A Series which supports Alias()
 type AliasSeries interface {

@@ -29,7 +29,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/serde"
 )
 
 type DataPointQueuer interface {

@@ -20,7 +20,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/tgres/tgres/blaster"
+	"github.com/jdcio/tgres/blaster"
 )
 
 func BlasterSetHandler(blstr *blaster.Blaster) http.HandlerFunc {

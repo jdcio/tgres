@@ -24,11 +24,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tgres/tgres/blaster"
-	"github.com/tgres/tgres/dsl"
-	"github.com/tgres/tgres/graceful"
-	h "github.com/tgres/tgres/http"
-	"github.com/tgres/tgres/receiver"
+	"github.com/jdcio/tgres/blaster"
+	"github.com/jdcio/tgres/dsl"
+	"github.com/jdcio/tgres/graceful"
+	h "github.com/jdcio/tgres/http"
+	"github.com/jdcio/tgres/receiver"
 )
 
 func httpServer(addr string, l net.Listener, rcvr *receiver.Receiver, rcache dsl.NamedDSFetcher, origHdr string) {

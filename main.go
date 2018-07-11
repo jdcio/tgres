@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/tgres/tgres/daemon"
+	"github.com/jdcio/tgres/daemon"
 )
 
 var (

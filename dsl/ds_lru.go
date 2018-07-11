@@ -21,9 +21,9 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
-	"github.com/tgres/tgres/series"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
+	"github.com/jdcio/tgres/series"
 )
 
 type dsLRU struct {

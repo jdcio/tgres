@@ -20,9 +20,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/cluster"
-	"github.com/tgres/tgres/statsd"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/cluster"
+	"github.com/jdcio/tgres/statsd"
 )
 
 var aggWorkerIncomingAggCmds = func(ident string, rcv chan *cluster.Msg, aggCh chan *aggregator.Command) {

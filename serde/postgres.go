@@ -43,8 +43,8 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/series"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/series"
 )
 
 type pgvSerDe struct {

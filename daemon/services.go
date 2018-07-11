@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tgres/tgres/dsl"
-	"github.com/tgres/tgres/graceful"
-	"github.com/tgres/tgres/receiver"
+	"github.com/jdcio/tgres/dsl"
+	"github.com/jdcio/tgres/graceful"
+	"github.com/jdcio/tgres/receiver"
 )
 
 type trService interface {

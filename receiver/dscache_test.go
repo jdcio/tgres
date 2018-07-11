@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
-	"github.com/tgres/tgres/series"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
+	"github.com/jdcio/tgres/series"
 )
 
 func Test_dscache_newDsCache(t *testing.T) {

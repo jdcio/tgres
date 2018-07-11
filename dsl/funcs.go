@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tgres/tgres/misc"
-	"github.com/tgres/tgres/series"
+	"github.com/jdcio/tgres/misc"
+	"github.com/jdcio/tgres/series"
 )
 
 type argType int

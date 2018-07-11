@@ -27,9 +27,9 @@ import (
 	"time"
 
 	_ "github.com/lib/pq"
-	"github.com/tgres/tgres/daemon"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/daemon"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 func fetchDataSources(db serde.SerDe) (map[string]serde.DbDataSourcer, error) {

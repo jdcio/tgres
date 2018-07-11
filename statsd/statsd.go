@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/misc"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/misc"
+	"github.com/jdcio/tgres/serde"
 )
 
 var (

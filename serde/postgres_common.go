@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/tgres/tgres/rrd"
+	"github.com/jdcio/tgres/rrd"
 )
 
 func dataSourceFromDsRec(dsr *dsRecord) (*DbDataSource, error) {

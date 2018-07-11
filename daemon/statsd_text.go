@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tgres/tgres/graceful"
-	"github.com/tgres/tgres/receiver"
-	"github.com/tgres/tgres/statsd"
+	"github.com/jdcio/tgres/graceful"
+	"github.com/jdcio/tgres/receiver"
+	"github.com/jdcio/tgres/statsd"
 )
 
 type statsdTextServiceManager struct {

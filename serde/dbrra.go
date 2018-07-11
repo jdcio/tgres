@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tgres/tgres/rrd"
+	"github.com/jdcio/tgres/rrd"
 )
 
 type DbRoundRobinArchiver interface {

@@ -21,8 +21,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 // Random notes on whisper files.

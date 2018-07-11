@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/tgres/tgres/cluster"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/cluster"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 type fakeLogger struct {

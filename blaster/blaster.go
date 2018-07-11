@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/serde"
 	"golang.org/x/time/rate"
 )
 

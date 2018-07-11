@@ -30,8 +30,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/dsl"
-	"github.com/tgres/tgres/misc"
+	"github.com/jdcio/tgres/dsl"
+	"github.com/jdcio/tgres/misc"
 )
 
 const BATCH_LIMIT = 64

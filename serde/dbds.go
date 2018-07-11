@@ -18,7 +18,7 @@ package serde
 import (
 	"time"
 
-	"github.com/tgres/tgres/rrd"
+	"github.com/jdcio/tgres/rrd"
 )
 
 type DbDataSource struct {

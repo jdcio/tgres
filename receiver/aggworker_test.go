@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/cluster"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/cluster"
+	"github.com/jdcio/tgres/serde"
 )
 
 func Test_aggworkerIncomingAggCmds(t *testing.T) {

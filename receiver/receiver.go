@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
-	"github.com/tgres/tgres/blaster"
-	"github.com/tgres/tgres/cluster"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/aggregator"
+	"github.com/jdcio/tgres/blaster"
+	"github.com/jdcio/tgres/cluster"
+	"github.com/jdcio/tgres/serde"
 )
 
 var debug bool

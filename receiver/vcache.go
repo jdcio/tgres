@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 // Vertical cache caches data points from multiple series for the same

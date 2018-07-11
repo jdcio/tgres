@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/tgres/tgres/misc"
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/misc"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 type Config struct { // Needs to be exported for TOML to work

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tgres/tgres/aggregator"
+	"github.com/jdcio/tgres/aggregator"
 )
 
 func Test_startstop_wrkCtl(t *testing.T) {

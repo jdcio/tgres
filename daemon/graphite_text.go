@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tgres/tgres/graceful"
-	"github.com/tgres/tgres/misc"
-	"github.com/tgres/tgres/receiver"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/graceful"
+	"github.com/jdcio/tgres/misc"
+	"github.com/jdcio/tgres/receiver"
+	"github.com/jdcio/tgres/serde"
 )
 
 type graphiteTextServiceManager struct {

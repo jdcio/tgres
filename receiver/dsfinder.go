@@ -18,8 +18,8 @@ package receiver
 import (
 	"time"
 
-	"github.com/tgres/tgres/rrd"
-	"github.com/tgres/tgres/serde"
+	"github.com/jdcio/tgres/rrd"
+	"github.com/jdcio/tgres/serde"
 )
 
 // A DSSpec Finder can find a DSSpec for a name. For previously
